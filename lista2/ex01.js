@@ -14,9 +14,12 @@ resultado = a * b ;
 return resultado ;
 }
 
-function divisao ( a , b ) {
-resultado = a / b ;
-return resultado ;
+function divisao (a, b) {
+    if (b === 0) {
+        return "A divisão não existe"
+    }
+    resultado = a / b;
+    return resultado;
 }
 
 const num1 = input.questionInt()
