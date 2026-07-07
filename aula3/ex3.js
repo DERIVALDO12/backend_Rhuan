@@ -18,3 +18,8 @@ for(let i = 0; i < produtos.length; i++){
 
 
 console.log(produtos.length)
+
+
+console.log("")
+console.log("--------------------------------------------------------------")
+console.log("")
