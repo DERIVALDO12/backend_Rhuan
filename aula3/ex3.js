@@ -21,5 +21,24 @@ console.log(produtos.length)
 
 
 console.log("")
-console.log("--------------------------------------------------------------")
+console.log("___________________________________________________")
 console.log("")
+
+const encontrar = produtos.find(p => p.id === 3)
+
+if(encontrar){
+    console.log("produto encontrado:", encontrar.nome)
+
+}
+const caro = produtos.filter(p => p.preco > 50)
+caro.forEach(p => {
+    console.log(p.nome, p.preco)
+}
+
+
+)
+
+
+
+
+
